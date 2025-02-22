@@ -1,19 +1,25 @@
-# Project Name
+# PDF Merger
 
-A brief description of your project.
+A Python script to merge multiple PDF files into a single PDF. This project is designed to handle large numbers of PDFs, log the process, and gracefully handle errors such as corrupted files or permission issues.
+
+---
 
 ## Features
-- List the key features of your project.
-- For example: "Merges multiple PDFs into one."
+- **Merge PDFs**: Combines all PDF files in a specified directory into a single PDF.
+- **Error Handling**: Handles corrupted PDFs and permission errors gracefully.
+- **Logging**: Logs the merging process, errors, and time taken to complete the task.
+- **Progress Indicator**: Displays the number of files processed in real-time.
+- **Cleanup**: Deletes all original PDFs after merging, leaving only the final merged PDF.
+
+---
 
 ## Requirements
-- List the dependencies or tools required to run your project.
-- For example:
-  - Python 3.x
-  - PyPDF4 (`pip install PyPDF4`)
+- Python 3.x
+- PyPDF4 (`pip install PyPDF4`)
 
-## Usage
-1. Step-by-step instructions on how to use your project.
-2. For example:
+---
+
+## Installation
+1. Clone this repository:
    ```bash
-   python pdf_merger.py
+   git clone https://github.com/Noman1461/qxresearch.git
